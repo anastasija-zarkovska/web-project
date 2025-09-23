@@ -54,9 +54,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1f1f1f;
+  background-color: #1f1f1f; /* темно сива позадина */
   color: white;
   padding: 50px 80px;
+  height: 100vh; /*  цел екран */
 }
 
 .hero-text {
@@ -91,4 +92,5 @@
   color: #f8b7b6;
   font-size: 18px;
   letter-spacing: 1.5px;
+
 }
