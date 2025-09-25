@@ -43,10 +43,46 @@
   font-size: 15px;
 }
 
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
 .icons a {
   color: white;
-  margin-left: 15px;
   text-decoration: none;
+}
+
+/* Search box во navbar */
+.icons .search-box {
+  background: #f8b7b6; /* розева позадина */
+  padding: 5px 10px;
+  border-radius: 30px; /* облаче */
+  display: flex;
+  align-items: center;
+  width: 200px;
+}
+
+.icons .search-box input {
+  border: none;
+  outline: none;
+  flex: 1;
+  background: transparent;
+  color: black; /* црни букви */
+  font-size: 13px;
+}
+
+.icons .search-box input::placeholder {
+  color: black; /* црн placeholder */
+}
+
+.icons .search-box button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: black; /* црна иконка/текст */
 }
 
 /* Hero Section */
@@ -54,10 +90,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1f1f1f; /* темно сива позадина */
+  background-color: #1f1f1f;
   color: white;
   padding: 50px 80px;
-  height: 100vh; /*  цел екран */
+  height: 100vh; /* цел екран */
 }
 
 .hero-text {
@@ -80,7 +116,7 @@
 }
 
 .hero-img img {
-  max-width: 400px;
+  max-width: 600px;
   border-radius: 10px;
 }
 
@@ -92,5 +128,4 @@
   color: #f8b7b6;
   font-size: 18px;
   letter-spacing: 1.5px;
-
 }
